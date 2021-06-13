@@ -3,13 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		5ABBA8BC2675ED3900F9CF21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABBA8BB2675ED3900F9CF21 /* AppDelegate.swift */; };
 		5ABBA8BE2675ED3900F9CF21 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABBA8BD2675ED3900F9CF21 /* SceneDelegate.swift */; };
-		5ABBA8C02675ED3900F9CF21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABBA8BF2675ED3900F9CF21 /* ViewController.swift */; };
+		5ABBA8C02675ED3900F9CF21 /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABBA8BF2675ED3900F9CF21 /* ChecklistViewController.swift */; };
 		5ABBA8C32675ED3900F9CF21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ABBA8C12675ED3900F9CF21 /* Main.storyboard */; };
 		5ABBA8C52675ED3A00F9CF21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ABBA8C42675ED3A00F9CF21 /* Assets.xcassets */; };
 		5ABBA8C82675ED3A00F9CF21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ABBA8C62675ED3A00F9CF21 /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 		5ABBA8B82675ED3900F9CF21 /* Checklists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Checklists.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ABBA8BB2675ED3900F9CF21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5ABBA8BD2675ED3900F9CF21 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5ABBA8BF2675ED3900F9CF21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5ABBA8BF2675ED3900F9CF21 /* ChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistViewController.swift; sourceTree = "<group>"; };
 		5ABBA8C22675ED3900F9CF21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5ABBA8C42675ED3A00F9CF21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5ABBA8C72675ED3A00F9CF21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 			children = (
 				5ABBA8BB2675ED3900F9CF21 /* AppDelegate.swift */,
 				5ABBA8BD2675ED3900F9CF21 /* SceneDelegate.swift */,
-				5ABBA8BF2675ED3900F9CF21 /* ViewController.swift */,
+				5ABBA8BF2675ED3900F9CF21 /* ChecklistViewController.swift */,
 				5ABBA8C12675ED3900F9CF21 /* Main.storyboard */,
 				5ABBA8C42675ED3A00F9CF21 /* Assets.xcassets */,
 				5ABBA8C62675ED3A00F9CF21 /* LaunchScreen.storyboard */,
@@ -102,7 +102,7 @@
 				};
 			};
 			buildConfigurationList = 5ABBA8B32675ED3900F9CF21 /* Build configuration list for PBXProject "Checklists" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5ABBA8C02675ED3900F9CF21 /* ViewController.swift in Sources */,
+				5ABBA8C02675ED3900F9CF21 /* ChecklistViewController.swift in Sources */,
 				5ABBA8BC2675ED3900F9CF21 /* AppDelegate.swift in Sources */,
 				5ABBA8BE2675ED3900F9CF21 /* SceneDelegate.swift in Sources */,
 			);
